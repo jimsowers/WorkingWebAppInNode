@@ -7,7 +7,8 @@ Type 'node app.js' to start express listening on port 3000.
 
 (windows command prompt)Type 'set DEBUG='app' & node app.js' to start express listening on port 3000 with verbose debug ONLY FOR THE CODE IN THIS API
 
-
-
-express
-chalk
+Install mongodb with defaults
+Start mongo in a console
+Create a database in your mongodb instance called nodeApi
+Insert some rows at the commandline like this:
+db.todos.insertOne({name: 'fry a duck'})

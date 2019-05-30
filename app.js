@@ -33,7 +33,17 @@ app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-  res.render('index', { endpoints: ['first endpoint', 'second endpoint'], title: 'API test endpoint in node.js' });
+  res.render('index', {
+    endpoints: [{
+      url: 'http://localhost:3000/api/todos',
+      displayName: 'Todo List',
+    },
+    {
+      url: 'second endpoint',
+      displayName: 'not defined yet',
+    }],
+    title: 'API test endpoint in node.js',
+  });
 });
 
 
