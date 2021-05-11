@@ -15,9 +15,9 @@
     "debug": "4.1.1",
     "ejs": "2.6.1",
     "express": "4.17.1",
-    "jquery": "3.4.1",
+    "jquery": "3.6.0",
     "jquery.easing": "1.4.1",
-    "mongoose": "5.5.11",
+    "mongoose": "5.12.8",
     "morgan": "1.9.1",
     "nodemon": "1.19.1"
   },
